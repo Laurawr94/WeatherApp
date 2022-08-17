@@ -1,0 +1,214 @@
+body {
+  margin: 0 auto;
+  background: linear-gradient(
+    290.7deg,
+    rgb(133, 255, 159) 2.3%,
+    rgb(0, 172, 249) 100.2%
+  );
+}
+.container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 8px;
+  border: 5px solid white;
+}
+.top {
+  max-height: 580px;
+}
+.mainHeading {
+  text-align: left;
+  font-family: "Dancing Script", cursive;
+  color: #b0e1f8;
+  font-weight: 800;
+  font-size: 70px;
+  padding: 14px;
+}
+.current {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  padding: 20px;
+  color: #2e4c4d;
+  text-transform: capitalize;
+}
+.currentlyIn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 10px;
+  color: #2e4c4d;
+}
+#search {
+  display: block;
+  text-align: center;
+  margin: auto 0px;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-family: "Open Sans", sans-serif;
+  size-adjust: 100;
+  font-size: 15px;
+  border-image: none;
+  outline: none;
+  background-color: transparent;
+  resize: 20px;
+}
+#search:hover {
+  background-color: #b0e1f8;
+}
+.searchButton {
+  display: block;
+  text-align: center;
+  margin: auto 0px;
+  border: 2px solid #b0e1f8;
+  border-radius: 5px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  border-image: none;
+  outline: none;
+  background-color: #b0e1f8;
+  max-width: 130px;
+}
+.searchButton:hover {
+  background-color: white;
+}
+#currentLocation {
+  display: block;
+  text-align: center;
+  margin: auto 0px;
+  border: 2px solid #b0e1f8;
+  border-radius: 5px;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  border-image: none;
+  outline: none;
+  max-width: 140px;
+  background-color: transparent;
+}
+#currentLocation:hover {
+  background-color: #b0e1f8;
+}
+.currentRow {
+  margin: 0 auto;
+  border: 20px 0px 0px 0px;
+}
+.col-1 {
+  width: 200px;
+  height: 50px;
+  padding: 0px;
+}
+.col-3 {
+  width: 140px;
+  height: 100px;
+}
+.col-6 {
+  width: 310px;
+  height: 150px;
+}
+.col-7 {
+  width: 310px;
+  height: 50px;
+  padding: 0px 5px 0px 15px;
+}
+.largeIcon {
+  font-size: 100px;
+  position: relative;
+  left: 20px;
+  color: white;
+}
+.currentLink {
+  text-decoration: none;
+}
+.currentTemp {
+  position: relative;
+  text-align: center;
+  bottom: 112px;
+  right: 3px;
+  font-size: 75px;
+  color: #f9c23c;
+  margin: 0 auto;
+}
+.currentTemp:hover {
+  color: darkorange;
+}
+ul {
+  border: 0px;
+  padding: 0px;
+}
+li {
+  text-decoration: none;
+  list-style: none;
+}
+.currentTimePrediction {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0px;
+  text-transform: capitalize;
+}
+.third {
+  border-left: 1px solid #7590aa;
+}
+.currentAddInfo {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  padding: 0px;
+  font-weight: 600;
+}
+.prediction {
+  text-align: center;
+  margin: 0 auto;
+}
+.celsiusFahrenheit {
+  text-decoration: none;
+  position: relative;
+  margin: 0, auto;
+  outline: none;
+  color: black;
+  bottom: 200px;
+  left: 200px;
+}
+#celsius {
+  text-decoration: none;
+  color: black;
+}
+#celsius:hover {
+  color: darkblue;
+  text-decoration: underline;
+}
+#fahrenheit {
+  text-decoration: none;
+  color: black;
+}
+#fahrenheit:hover {
+  color: darkblue;
+  text-decoration: underline;
+}
+
+.day {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  padding: 2px;
+  color: white;
+}
+.predTemp {
+  color: white;
+}
+.endNote {
+  text-align: right;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  margin: 0 auto;
+}
+.codedBy {
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 8px;
+  font-weight: 200;
+  color: #7590aa;
+  padding: 0px 10px;
+}
